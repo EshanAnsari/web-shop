@@ -14,6 +14,13 @@ Install the dependencies: composer install
 Create a database and update the database credentials in the .env file
 Run the migrations: php artisan migrate
 
+Import Master Data
+This command is used to import the master data from the given URLs into the API Webshop database.
+php artisan import:master-data
+
+Logging
+The command logs the import results (how many datasets were imported/not imported, etc.) in the laravel.log file located in the storage/logs directory.
+
 API Endpoints
 Orders
 GET /api/orders: Retrieve a list of orders
