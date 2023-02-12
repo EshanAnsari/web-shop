@@ -8,7 +8,7 @@ Laravel
 Guzzle HTTP Client
 
 Installation
-Clone the repository: git clone https://github.com/<your-repo>.git
+Clone the repository: git clone https://github.com/https://github.com/EshanAnsari/web-shop.git
 Navigate to the project directory: cd web-shop-api
 Install the dependencies: composer install
 Create a database and update the database credentials in the .env file
